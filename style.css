@@ -36,19 +36,18 @@
     border-radius: 20px;
     
 }
-
-.container:hover .img {
+.card-hover:hover {
     opacity: 1;
 }
 
-.container:hover .bas {
+.card-hover:hover .bas {
     font-size: 40px;
     bottom: 20px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.container:hover .rewards {
+.card-hover:hover .rewards {
     display: none;
 }
 
