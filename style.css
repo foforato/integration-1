@@ -39,6 +39,7 @@
 .card-hover:hover {
     opacity: 1;
 }
+
 .card-hover:hover .bas {
     font-size: 40px;
     bottom: 20px;
