@@ -4,7 +4,16 @@
     text-align: center;
     font-family: sans-serif;
 }
-
+.carousel .d-block {
+  width:200px;
+  height:600px;
+}
+.cover{
+    object-fit:cover;
+}
+.text-carousel{
+    font-size: 5em;
+}
 .img {
     width: 500px;
     opacity: 0.5;
@@ -14,7 +23,7 @@
 .bas {
     position: absolute;
     font-size: 70px;
-    bottom: 90px;
+    bottom: 100px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
@@ -27,21 +36,20 @@
 
 .rewards {
     position: absolute;
-    max-width: 80%;
-    font-size: 50px;
-    bottom: 45px;
-    left: 38px;
+    width: 180px;
+    font-size: 20px;
+    left: 70px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 16px 10px 18px 10px;
-    border-radius: 20px;
-    
+    border-radius: 10px;
+    margin-top: 20px;
 }
 .card-hover:hover {
     opacity: 1;
 }
 
 .card-hover:hover .bas {
-    font-size: 40px;
+    font-size: 60px;
     bottom: 20px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -61,5 +69,52 @@
     max-width: 800px;
 }
 .color-nav-footer{
-    background-color: grey;
+    background-color: orange;
+}
+.card-deck{
+    border-color: black;
+}
+@font-face{
+    font-family: "party";
+    src: url("assets/font/partybusiness.ttf");
+}
+@font-face{
+    font-family: "anirb__";
+    src: url("assets/font/anirb___.ttf");
+}
+@font-face{
+    font-family: "tngan";
+    src: url("assets/font/tngan.ttf");
+}
+.caractere{
+    font-family: 'tngan';
+    color: orange;
+}
+a{
+    font-family: 'anirb__';
+}
+h5, p{
+    font-family: 'party';
+
+}
+.color-title{
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-brand:hover { 
+    color: white;
+}
+.nav-link:focus, .nav-link:hover {
+
+    text-decoration: underline !important;
+}
+.trait{
+    margin-top: 0.5rem;
+    color: white;
+}
+.text-fellow{
+    font-size: 2em;
 }
