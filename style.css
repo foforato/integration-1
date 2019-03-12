@@ -29,9 +29,45 @@
     color: rgb(255, 255, 255);
     transition: .6s ease;
 }
+.bas1 {
+    position: absolute;
+    font-size: 70px;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    transition: .6s ease;
+    text-decoration: orange line-through;
+}
+.rewards1 {
+    position: absolute;
+    width: 180px;
+    font-size: 30px;
+    left: 70px;
+    padding: 16px 10px 18px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: orange;
+}
+.card-hover1:hover {
+    opacity: 1;
+}
 
+.card-hover1:hover .bas1 {
+    font-size: 60px;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-hover1:hover .rewards1{
+    display: none;
+}
 .orange_reward {
     color: #ff8800;
+}
+.navbar-toggler-icon{
+    color: red !important;
 }
 
 .rewards {
@@ -98,14 +134,14 @@ h5, p{
 
 }
 .color-title{
-    color: white;
+    color: white !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    color: white;
+    color: white !important;
 }
 .navbar-brand:hover { 
-    color: white;
+    color: white !important;
 }
 .nav-link:focus, .nav-link:hover {
 
